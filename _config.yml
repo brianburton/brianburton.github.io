@@ -1,5 +1,6 @@
 theme: minima
-title: Ravings of a Mad Programmer
+title: Eclectic Emmnations from an Eccentric Engineer
+author: Brian Burton
 email: brian.burton@burton-computer.com
 description: > # this means to ignore newlines until "baseurl:"
   More or less random thoughts related to my open source projects.
