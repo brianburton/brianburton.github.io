@@ -1,7 +1,7 @@
 ---
 title:  "Javaimmutable Collections 1.9.1"
 date:   2017-10-14 12:51:00 -0400
-categories: javimmutable release update
+categories: javimmutable
 ---
 ## 1.9 Released!
 
