@@ -1,6 +1,6 @@
 ---
 title:  "Queen City Hacks Talk - New Javimmutable Maps"
-date:   2017-12-03 13:00:00 -0300
+date:   2017-12-03 13:00:00 -0500
 categories: queencityhacks
 ---
 ## Inspirational images

@@ -1,6 +1,6 @@
 ---
 title:  "Queen City Hacks Talk - Javimmutable Overview"
-date:   2017-11-05 13:00:00 -0300
+date:   2017-11-05 13:00:00 -0500
 categories: queencityhacks
 ---
 ## Javimmutable Collections
