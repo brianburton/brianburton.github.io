@@ -70,9 +70,9 @@ Previous releases had Builder implementations for lists.  Only for lists.  Those
 
 Since sets are built on maps writing a Builder for the hash and tree maps makes writing a builder for sets trivial.  But writing a builder for a map or array might not be so trivial.
 
-Sorted maps are based on a binary tree.  You can build them efficiently using a list of values.  But of course those values have to be sorted.  And you have to keep in mind that users might call `add(k,v)` multiple times with different values for the same key.  So I implemented the building using a standard TreeMap.  I wasn't thrilled about that but I think it was the right call.  I could have made a mutable binary tree implementation for the builder but that didn't seem worth the effort and maintenance.
+Sorted maps are based on a binary tree.  You can build them efficiently using a list of values.  But of course those values have to be sorted.  And you have to keep in mind that users might call `add(k,v)` multiple times with different values for the same key.  So I implemented the builder using a standard TreeMap.  I wasn't thrilled about that but I think it was the right call.  I could have made a mutable binary tree implementation for the builder but that didn't seem worth the effort and maintenance.
 
-Hash maps are strange beasts.  The hash array mapped trie is an awesome data structure.  It's also pretty strange though.  There really isn't an efficient way to build one efficiently from a list of values.  So I wound up writing a mutable version of the trie with no array compression and only supporting addition to the trie.  This was complicated but it worked out nicely.  Once you have a mutable trie it's fast and easy to build up a compact immutable version from the mutable nodes.
+Hash maps are strange beasts.  The hash array mapped trie is an awesome data structure.  It's also pretty strange though.  There really isn't an efficient way to build one from a list of values.  So I wound up writing a mutable version of the trie with no array compression and only supporting addition to the trie.  This was complicated but it worked out nicely.  Once you have a mutable trie it's fast and easy to build up a compact immutable version from the mutable nodes.
 
 ### Final thoughts
 
