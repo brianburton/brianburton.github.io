@@ -9,7 +9,7 @@ The latest version of Javimmutable Collections has been released!  The [github r
 
 Actually this post covers the changes from both 3.2.0 and 3.2.1. 
 
-### Better, faster, smaller arrays
+### Simpler, smaller arrays
 
 JImmutableArray has always been the simplest HAMT implementation since it had no need to support collision maps.  It was still a bit more complicated than I liked.  Plus I'd always preferred to the idea of having a single HAMT to serve as a basis for hash sets and maps as well as arrays.  Once 3.1.0 was released I used my enforced non-work time to work on an improved array implementation.
 
@@ -49,5 +49,5 @@ JImmutableTrieArray | n/a | 4540024 | 4540024 | 2112904 | n/a
 
 ### Final thoughts
 
-The quest to lower memory footprint has born fruit.  The collections are now leaner and faster.  Our hash maps and sets are smaller than their mutable equivalents.  Even insert order maps are within a whisker of LinkedHashMap's size.  The latter is huge improvement from where we started and is fairly remarkable since we can't use a simple data structure like a doubly-linked list the way the mutable version can.
+The quest to lower memory footprint has born fruit.  The collections are now leaner.  Our hash maps and sets are smaller than their mutable equivalents.  Even insert order maps are within a whisker of LinkedHashMap's size.  The latter is huge improvement from where we started and is fairly remarkable since we can't use a simple data structure like a doubly-linked list the way the mutable version can.
 
