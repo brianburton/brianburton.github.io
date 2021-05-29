@@ -23,8 +23,6 @@ categories: queencityhacks
 ## JImmutableHashMap changes
 
 - After last month's talk I decided to revisit the HAMT implementation
-    - [rewrite the maps](https://cdn.meme.am/instances/250x250/67313034/rewrite-all-the-maps.jpg)
-    - [yeah...](https://memegenerator.net/img/instances/500x/62231893/yeah-if-you-could-just-rewrite-all-that-code-asap-thatd-be-greaaaaat.jpg)
 - replaced the HAMT hash map implementation this month
     - different ways to break down integer into 5 bit parts
     - old implementation used bits in order from highest to lowest
