@@ -18,7 +18,6 @@ categories: queencityhacks
 - Future development
     - improve spliterators
     - integrations with other common libraries
-    - [everywhere](http://m.memegen.com/ku6don.jpg)
     
 
 ## JSON Support
@@ -27,7 +26,6 @@ categories: queencityhacks
 - Round trip JSON serialization using Jackson (https://github.com/FasterXML/jackson)
 - Code from Guava's Jackson module very informative.
     - https://github.com/FasterXML/jackson-datatypes-collections
-    - [Never try to...](http://m.memegen.com/acnz1l.jpg)
 
 #### JSON Sample
 
@@ -364,11 +362,7 @@ public class JImmutableDeserializers
 - Might add support for other collection types (maps, linked lists, multi-sets, list-maps, set-maps, etc).
     - Some of these are VERY complicated.
 
-#### Final thoughts
-
-[Json from immutable collections](http://m.memegen.com/e7ivq8.jpg)
-
-## Get the word out
+#### Final thoughts: Get the word out
 
 - I want users!
 - Ideas
